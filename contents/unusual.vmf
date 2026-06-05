@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10428"
-	"mapversion" "142"
+	"mapversion" "161"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "142"
+	"mapversion" "161"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -482,16 +482,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	group
-	{
-		"id" "2797"
-		editor
-		{
-			"color" "194 211 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 }
 entity
 {
@@ -622,7 +612,7 @@ entity
 	"vscripts" "particle_parent.nut"
 	connections
 	{
-		"OnTrigger" "pyro_tauntRunScriptCodeSpawnParticle(self, `utaunt_seamine_teamcolor_red`, `taunt_effect`, 2)01"
+		"OnTrigger" "pyro_tauntRunScriptCodeSpawnParticle(self, `utaunt_sharkfin2_parent`, `taunt_effect`, 2)01"
 	}
 	"origin" "426 134 133"
 	editor
@@ -768,11 +758,10 @@ entity
 	"defaultwelcome" "0"
 	"fov" "0"
 	"match_summary" "0"
-	"origin" "252 284 121"
+	"origin" "234 284 117"
 	editor
 	{
-		"color" "194 211 0"
-		"groupid" "2797"
+		"color" "0 211 236"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
@@ -818,8 +807,7 @@ entity
 	"origin" "84.0001 284 64"
 	editor
 	{
-		"color" "194 211 0"
-		"groupid" "2797"
+		"color" "0 197 122"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"

@@ -1,0 +1,22 @@
+#BIMP 2.6
+#MANIPULATION SET DEFINITION
+[USERDEF0]
+procedure=gimp-image-resize
+num_params=5
+PARAM0=NOT_USED
+PARAM1=1080
+PARAM2=1080
+PARAM3=-460
+PARAM4=-40
+
+[CHANGEFORMAT]
+format=4
+interlace=false
+compression=9
+savebgc=true
+savegamma=false
+saveoff=false
+savephys=true
+savetime=true
+savecomm=true
+savetrans=true
